@@ -3,16 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Surf and Paddle</title>
-  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="stylesheets/font-awesome.css">
   <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-
-
 
 </head>
 
 <body>
-  <div id="container">
+<div class="containerTop">
   <header>
 
       <div class="topLeft">
@@ -22,7 +20,7 @@
       <div class="topRight">
         <span>ABOUT</span>
         <span>SEARCH</span>
-        <i class="fa fa-search"></i>
+
 
       </div>
       <img id="headerImage" src="images/header.jpg">
@@ -31,19 +29,19 @@
 
 
   </header>
-
-
+</div>
+<div class="containerMiddle">
   <section>
   <div class="headline">
     <h1>A FANTASTIC ENGAGING HEADLINE GOES HERE</h1>
-    <div>
+
       <ul class="underHeadline">
         <li><img src="images/Anne Marie.png"></li>
         <li><span id="anneMarie">Anne Marie</span></li>
         <li><span>on</span></li>
         <li><span id="date">Monday October 7th 9:22pm</span></li>
       </ul>
-    </div>
+
       <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, qui id quidem voluptatum, doloremque excepturi eligendi, mollitia iste dolores delectus, facilis quia fuga velit vel possimus! Obcaecati minus mollitia vitae!
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sapiente, voluptates neque ex nam, voluptate facere libero beatae vel nisi placeat quis? Expedita cum quibusdam sapiente dolorem, accusantium voluptas provident.</p>
       <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sapiente, voluptates neque ex nam, voluptate facere libero beatae vel nisi placeat quis? Expedita cum quibusdam sapiente dolorem, accusantium voluptas provident.
@@ -65,15 +63,15 @@
   <div class="share">
     <ul class="hoverFix">
     <li><img src="images/share1.png">
-    <div><p>Read Comments</p></div>
+    <div class="shareBox"><p>Read Comments</p></div>
   </li>
   <li class="share">
     <img src="images/share2.png">
-    <div><p>Read Later</p></div>
+    <div class="shareBox"><p>Read Later</p></div>
   </li>
     <li class="share">
       <img src="images/share3.png">
-      <div><p>Share this Post</p></div>
+      <div class="shareBox"><p>Share this Post</p></div>
     </li>
 
 
@@ -99,56 +97,51 @@
 
   </div>
 
-    <img src="images/whale.jpg">
+    <img class="whale" src="images/whale.jpg">
     <p id="ad">About this Ad</p>
-<br><br>
+
 
   <h2>SIDEBAR SECTION HEADING</h2>
 
   <div id="sideTextWidth"<p id="sideText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolores laboriosam assumenda nihil hic in magni adipisci, maiores saepe ut libero minima debitis. Animi optio suscipit, excepturi mollitia dolores itaque!</p>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
     </div>
   </aside>
+</div>
 
+<div class="containerBottom">
   <footer>
 
     <div class="footer1">
     <h1>MOST POPULAR POSTS</h1><br>
     </div>
 
-    <div class="footer1">
+    <div class="footer2">
 
-    <table>
-      <thead>
-        <th colspan="4"></th></thead>
+    <div class="footerImage"><img src="images/car.jpg"><p class="textMove1">ANOTHER COOL POST</p></div>
+    <div class="footerImage"><img src="images/sunset.jpeg"><p class="textMove2">POST TITLE</p></div>
+    <div class="footerImage"><img src="images/footer3.jpg"><p class="textMove3">HERE'S ANOTHER LONGER POST TITLE</p></div>
+    <div class="footerImage"><img src="images/footer4.jpg"><p class="textMove4">OH COOL A POST!</p></div>
 
-        <tr class="hoverFix">
-          <td><img src="images/car.jpg"><p id="textMove1">ANOTHER COOL POST</p>
-          </td>
-          <td><img src="images/sunset.jpeg"><p id="textMove2">POST TITLE</p>
-          </td>
-          <td><img src="images/footer3.jpg"><p id="textMove3">HERES ANOTHER LONGER<br> POST TITLE</p>
-          </td>
-          <td><img src="images/footer4.jpg"><p id="textMove4">OH COOL A POST</p>
-          </td>
-        </tr>
-    </table>
     </div>
 
 
-<div class="bottomFooter">
-  <img src="images/iron yard.png">
-  <ul class="nav">
-    <li>Nav Item 1</li>
-    <li>Nav Item 2</li>
-    <li>Nav Item 3</li>
-    <li id="borderFix">Nav Item 4</li>
-  </ul>
+<div class="footer3">
+  <div class="ironYard">
+    <img src="images/iron yard.png">
+  </div>
+
+  <div class="nav">
+    <ul class="navFix">
+      <li>Nav Item 1</li>
+      <li>Nav Item 2</li>
+      <li>Nav Item 3</li>
+      <li class="borderFix">Nav Item 4</li>
+
+    </ul>
+
+  </div>
 
 
 </div>
@@ -158,6 +151,6 @@
 
 
 </footer>
-
+</div>
 </body>
 </html>

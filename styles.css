@@ -1,0 +1,744 @@
+
+
+body {
+  text-align: center;
+  background-color: #cacaca;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#headerImage {
+    opacity: .3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  display: block;
+
+}
+
+header {
+  position: relative;
+}
+
+p, h1, span {
+  font-family: Copperplate;
+
+}
+
+#title {
+  font-family: Copperplate;
+  position: absolute;
+  left: 13%;
+  bottom: 35%;
+  font-size: 4em;
+}
+
+#underTitle {
+  position: absolute;
+  left: 25%;
+  bottom: 33%;
+  font-size: 1.3em;
+
+}
+
+.topLeft {
+  display: inline-block;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.topLeft img {
+  width: 5%;
+  float: left;
+  border-radius: 35%;
+
+}
+.topLeft p{
+  width: 50%;
+
+}
+
+.topRight {
+  display: inline-block;
+  position: absolute;
+  top: 7%;
+  right: 5%;
+}
+
+.topRight span {
+  font-size: 16px;
+  width: 70%;
+
+}
+
+.topRight span + span {
+  margin-left: 10px;
+
+}
+
+
+section {
+  width: 65%;
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  min-height: 776.813px;
+  max-height: 776.813px;
+
+
+}
+
+section div {
+  width: 75%;
+  font-size: 1.5em;
+  text-align: right;
+
+
+
+}
+
+
+ul li {
+  display: inline-block;
+
+}
+
+.headline h1 {
+  margin-bottom: 0;
+  width: 77%;
+  float: right;
+  text-align: left;
+
+}
+
+.underHeadline {
+  margin-top: 0;
+
+}
+.underHeadline img {
+  width: 29%;
+
+
+}
+
+.underHeadline span {
+  font-size: .6em;
+  font-family: Helvetica;
+
+}
+
+#anneMarie {
+  color: blue;
+  font-weight: heavy;
+
+}
+
+#date {
+  text-decoration: underline;
+  width: 75%;
+
+}
+
+.mainText  {
+  width: 82%;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: .6em;
+  position: relative;
+  display: inline-block;
+
+}
+
+.mainText2  {
+  width: 82%;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: .6em;
+  position: relative;
+  display: inline-block;
+
+}
+
+.verticalLine {
+  border-left: 1px solid black;
+  text-align: left;
+  width: 65%;
+  display: inline-block;
+  padding-left: 3%;
+  color: blue;
+
+
+
+}
+
+.share {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.hoverFix {
+  width: 100%;
+}
+
+
+.hoverFix li {
+  max-width: 180px;
+  min-width: 180px;
+
+}
+
+
+.share ul {
+  margin: 0;
+  padding: 0;
+
+
+}
+.share div {
+  min-height: 30px;
+  max-height: 30px;
+  background-color: #106DB3;
+  color: white;
+  font-size: .6em;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+
+
+}
+
+
+
+.share p {
+  font-family: Helvetica;
+  vertical-align: middle;
+  line-height: .5px;
+
+
+
+}
+
+.share img {
+
+  vertical-align: middle;
+}
+
+
+aside {
+  width: 35%;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  min-height: 776.813px
+
+}
+
+.containerTop {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+.containerMiddle {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+.containerBottom {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+aside div {
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#asideTitle {
+  margin: 2px;
+
+}
+
+#sideLinks {
+
+  display: inline-block;
+  font-size: .9em;
+  font-family: Helvetica;
+}
+
+#sideLinks span + span {
+  margin-left: 8px;
+
+}
+
+#ad {
+  text-decoration: underline;
+  font-family: Helvetica;
+  font-size: .9em;
+  color: gray;
+}
+
+h2 {
+  font-family: Copperplate;
+  color: #0061AC;
+
+}
+
+#sideText {
+  text-align: left;
+
+}
+
+#sideTextWidth {
+  width: 75%;
+  text-align: left;
+  font-size: .9em;
+  font-family: Helvetica;
+
+}
+
+footer {
+  position: relative;
+
+}
+.footer1 {
+  border-top: 1px solid #E0E6E9;
+  background-color: white;
+  font-size: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.footer2 {
+  border-top: 1px solid #E0E6E9;
+  background-color: white;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.textMove1 {
+  position: absolute;
+  bottom: 80%;
+  color: white;
+  left: 15%;
+}
+
+.textMove2 {
+  position: absolute;
+  bottom: 10%;
+  color: white;
+  left: 29%;
+}
+
+
+.textMove3 {
+  position: absolute;
+  bottom: 76%;
+  color: white;
+  left: 5%;
+}
+
+
+.textMove4 {
+  position: absolute;
+  bottom: 40%;
+  color: white;
+  left: 20%;
+}
+
+
+
+
+
+
+.footer2 img {
+  width: 100%;
+  min-height: 310px;
+  max-height: 310px;
+
+}
+
+.footerImage {
+  width: 24%;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+
+
+.footer3 {
+  display: inline-block;
+  background-color: #083452;
+  width: 100%;
+}
+
+
+
+.ironYard {
+  width: 49%;
+  display: inline-block;
+
+}
+
+.ironYard img {
+  float: left;
+}
+
+.nav {
+  color: white;
+  font-family: Helvetica;
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+  float: right;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.navFix li + li {
+
+  margin-left: 10px;
+
+}
+
+.nav li {
+  border-right: 1px solid white;
+  padding-right: 5px;
+}
+
+.borderFix {
+  border: none;
+}
+
+
+
+.hoverFix:hover > td {
+    opacity: 0.5;
+  }
+
+
+.hoverFix:hover > td:hover {
+  opacity: 1.5;
+}
+
+
+.hoverFix:hover > li {
+    opacity: 0.5;
+  }
+
+
+.hoverFix:hover > li:hover {
+  opacity: 1.5;
+}
+
+#sideLinks:hover > span {
+    opacity: 0.5;
+  }
+
+
+#sideLinks:hover > span:hover {
+  opacity: 1.5;
+}
+
+
+.nav:hover > li {
+    opacity: 0.5;
+  }
+
+
+.nav:hover > li:hover {
+  opacity: 1.5;
+}
+
+
+
+@media screen and (min-width: 1167px) and (max-width: 1417px) {
+  .containerTop{
+    width: 1050px;
+  }
+  .containerMiddle {
+    width: 1050px;
+  }
+  .containerBottom {
+    width: 1050px;
+  }
+
+
+  #title {
+    font-size: 3.3em;
+  }
+
+  table p {
+    font-size: .9em;
+  }
+
+  .headline h1 {
+    width: 90%;
+  }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1166px) {
+  .containerTop {
+    width: 740px;
+  }
+  .containerMiddle {
+    width: 740px;
+  }
+  .containerBottom {
+    width: 740px;
+  }
+
+
+  #title {
+    font-size: 2.5em;
+  }
+  #underTitle {
+    font-size: 1em;
+  }
+
+.footerImage {
+  width: 48%;
+}
+
+
+
+  .headline h1 {
+    width: 99%;
+  }
+  .headline {
+    width: 99%;
+  }
+
+  .mainText {
+    width: 99%;
+  }
+
+  .mainText2 {
+    width: 99%;
+  }
+  .whale {
+    width: 75%;
+  }
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+  .containerTop {
+    width: 550px;
+  }
+
+  .containerMiddle {
+    width: 550px;
+  }
+
+  .containerBottom {
+    width: 550px;
+  }
+  section {
+    min-height: 950px;
+  }
+  aside {
+    min-height: 950px;
+    max-height: 950px;
+
+
+  }
+
+  aside div {
+    margin-top: 20px;
+  }
+
+
+
+  #title {
+    font-size: 2em;
+  }
+  #underTitle {
+    font-size: 1em;
+  }
+
+.footerImage {
+  width: 48%;
+}
+
+
+
+  .headline h1 {
+    width: 99%;
+  }
+  .headline {
+    width: 99%;
+  }
+
+  .mainText {
+    width: 99%;
+  }
+
+  .mainText2 {
+    width: 99%;
+  }
+  .whale {
+    width: 75%;
+    margin-top: 25px;
+
+  }
+
+  .ad {
+    margin-top: 20px;
+  }
+
+  .topLeft p {
+    font-size: .8em;
+
+  }
+  .topRight span {
+    font-size: .8em;
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .containerTop {
+    width: 320px;
+
+  }
+
+  .containerMiddle {
+    width: 320px;
+  }
+
+  .containerBottom {
+    width: 320px;
+  }
+  section {
+    display: block;
+    width: 100%;
+    min-height: 860px;
+  }
+  aside {
+  display: block;
+  width: 100%;
+
+
+  }
+
+  aside div {
+    margin-top: 20px;
+  }
+
+  .headline h1 {
+    font-size: .9em;
+  }
+
+  .underHeadline span {
+    font-size: .4em;
+  }
+
+  #sideTextWidth {
+    font-size: .8em;
+
+  }
+
+
+  #title {
+    font-size: 1.9em;
+    left: 5%;
+    bottom: 13%;
+  }
+  #underTitle {
+    font-size: .6em;
+    left: 18%;
+    bottom: 13%;
+  }
+
+  .topLeft p {
+    font-size: .5em;
+
+  }
+  .topRight span {
+    font-size: .5em;
+
+  }
+.footerImage {
+  width: 100%;
+}
+
+
+
+  .headline h1 {
+    width: 99%;
+  }
+  .headline {
+    width: 99%;
+  }
+
+  .mainText {
+    width: 99%;
+    font-size: .5em;
+  }
+
+  .mainText2 {
+    width: 99%;
+    font-size: .5em;
+  }
+
+
+  .whale {
+    width: 75%;
+    margin-top: 25px;
+
+  }
+
+  .ad {
+    margin-top: 20px;
+  }
+
+
+
+  .ironYard {
+    display: block;
+
+  }
+
+  .nav {
+    display: block;
+  }
+  .ironYard img {
+    width: 300px;
+  }
+}
